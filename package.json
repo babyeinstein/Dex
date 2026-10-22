@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Dex - Personal Knowledge Management System",
   "private": true,
+  "engines": {
+    "node": "^24.22.1"
+  },
   "scripts": {
     "meeting-sync": "node .scripts/meeting-intel/sync-from-granola.cjs",
     "meeting-sync:dry-run": "node .scripts/meeting-intel/sync-from-granola.cjs --dry-run",
